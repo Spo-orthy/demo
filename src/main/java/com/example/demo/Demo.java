@@ -9,7 +9,7 @@ public class Demo {
 
     @GetMapping("/")
     public String index() {
-        return "hello";
+        return "hello FROM CONTROLLER";
     }
 }
 
